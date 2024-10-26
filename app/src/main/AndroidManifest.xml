@@ -4,7 +4,7 @@
     <!-- Permission to use the camera -->
     <uses-permission android:name="android.permission.CAMERA"/>
 
-    <!-- Optional: Permission to write to external storage (if needed) -->
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
 
@@ -39,7 +39,7 @@
         <activity
             android:name=".ViewImageActivity"
         android:exported="true"
-        android:label="@string/app_name" /> <!-- Optional: Change the label as needed -->
+        android:label="@string/app_name" />
 
         <!-- FileProvider configuration -->
         <provider
